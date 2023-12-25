@@ -12,7 +12,7 @@ adb_target_dir := /sdcard/${package_file}
 .PHONY: all build compile pack push connect install clean
 
 all: build push install
-build: clean compile pack copy
+build: clean compile pack
 
 compile:
 	mkdir -p build/files/code build/files/config
