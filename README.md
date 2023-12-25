@@ -6,6 +6,8 @@ This app is designed for the Fossil Hybrid HR smartwatch. It will not work on an
 
 Dutch buienradar is a reliable source for precipitation forecast, based on current radar-data. The Buienradar API provides hyperlocal and per 5 minutes data about the expected precipitation in a text-file. The watchface relies on Gadgetbridge for the communication with the watch and a 'companion' phone-app that can send information from the internet to gadgetbridge. I used tasker as the companion app. For more info take a look at https://www.buienradar.nl/overbuienradar/gratis-weerdata.
 
+![buienradar](https://github.com/gjkrediet/Fossil_Buienradar/assets/20277013/9b54d459-6aff-4dcf-871d-ce933f424edf)
+
 This app shows Buienradar-data with a resolution of 5 minutes for the first half hour and with a resolution of 10 minutes for the next hour and a half. Upon start of the app the data is requested from Tasker and - when received - shown in the app. The app exits after 30 seconds.
 
 ### Installation
